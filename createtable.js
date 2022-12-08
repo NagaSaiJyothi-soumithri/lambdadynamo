@@ -1,8 +1,6 @@
 var AWS = require('aws-sdk'); 
 
-AWS.config = new AWS.Config();
-AWS.config.accessKeyId = "AKIASXB6ZF7XISCH7RU3";
-AWS.config.secretAccessKey = "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";
+
 AWS.config.region = "us-east-1";
 
 //Create a Table
